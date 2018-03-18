@@ -4,10 +4,11 @@
     width: 100%;
     z-index: 999;
     background: none;
-    /* border: 0; */
+    border: 0;
     height: 80px;
     /* border-radius:0; */
-    font-size: 200%;
+    font-size: 150%;
+    margin-top: 1%;
 }
 
 .navbar-default .navbar-nav>li>a {
