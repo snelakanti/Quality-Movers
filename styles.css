@@ -20,8 +20,7 @@
 }
 
 .carousel{
-position: absolute;
-
+/* position: absolute; */
 z-index: -1;
 }
  .overlay{
@@ -35,7 +34,3 @@ z-index: -1;
     opacity: .5;
  }
 
- .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
-    z-index: 99999;
-    pointer-events:none;
-  }
