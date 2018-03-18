@@ -26,10 +26,10 @@
                       </div>
                   
                       <!-- Collect the nav links, forms, and other content for toggling -->
-                      <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
+                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <!-- <ul class="nav navbar-nav">
                                 <li><a href="#">Link</a></li>
-                        </ul> -->
+                        </ul>  -->
                         <ul class="nav navbar-nav navbar-right">
                           <li><a href="#">Contact</a></li>
                             </ul>
@@ -58,7 +58,8 @@
                         <div class="carousel-caption">
                           <h1>Affordable.</h1>
                           <h4>For all of your important household moving needs, you can depend on the household movers at Quality Movers. </h4>
-                </div>
+                          <p><a class="btn btn-lg btn-primary" href="#" role="button">Get a Free Quote!</a></p>
+                        </div>
                 </div>
                           <div class="overlay"></div>
             </div>
@@ -96,13 +97,32 @@
 
         <span class ="icon-next"></span>
      </a>
-  
+     <!-- <div id="carouselButtons">
+            <button id="playButton" type="button" class="btn btn-default btn-xs">
+                <span class="glyphicon glyphicon-play"></span>
+             </button>
+            <button id="pauseButton" type="button" class="btn btn-default btn-xs">
+                <span class="glyphicon glyphicon-pause"></span>
+            </button>
+        </div> -->
 
 
     <script src="script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
+    <script>$(function () {
+            $('#myCarousel').carousel({
+                interval:2000,
+                pause: "false"
+            });
+            $('#playButton').click(function () {
+                $('#myCarousel').carousel('cycle');
+            });
+            $('#pauseButton').click(function () {
+                $('#myCarousel').carousel('pause');
+            });
+        });</script>
     <!-- <script src="carousel.js"></script> -->
 
 
