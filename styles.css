@@ -68,4 +68,16 @@ z-index: -1;
     font-size: 120%;
   } */
 
-  
+  .features-icons{
+
+    background-color: teal;
+  }
+
+  .features-icons-icon{
+      margin-top:10%;
+  }
+
+  .lead{
+      margin-top:5%;
+      font-size: 100%;
+  }
