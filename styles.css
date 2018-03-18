@@ -4,8 +4,10 @@
     width: 100%;
     z-index: 999;
     background: none;
-    border: 0;
+    /* border: 0; */
+    height: 80px;
     /* border-radius:0; */
+    font-size: 200%;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -14,6 +16,7 @@
 
 .navbar-default .navbar-brand{
     color:white;
+    font-size: 150%;
 } 
 .navbar-default .navbar-brand:hover{
     color:black;
@@ -34,3 +37,7 @@ z-index: -1;
     opacity: .5;
  }
 
+ .carousel-caption {
+    top: 25%;
+    bottom: auto;
+}
