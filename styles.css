@@ -24,4 +24,18 @@ position: absolute;
 
 z-index: -1;
 }
+ .overlay{
+    position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+    z-index: 2;
+    background-color: #080d15;
+    opacity: .5;
+ }
 
+ .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
+    z-index: 99999;
+    pointer-events:none;
+  }
