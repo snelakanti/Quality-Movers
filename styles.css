@@ -1,5 +1,4 @@
 .navbar{
-
     position: absolute;
     width: 100%;
     z-index: 999;
@@ -9,6 +8,7 @@
     /* border-radius:0; */
     font-size: 150%;
     margin-top: 1%;
+    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -26,6 +26,7 @@
 .carousel{
 /* position: absolute; */
 z-index: -1;
+font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
  .overlay{
     position: absolute;
@@ -70,7 +71,7 @@ z-index: -1;
 
   .features-icons{
 
-    background-color: teal;
+    background-color: rgb(241, 199, 107);
   }
 
   .features-icons-icon{
@@ -80,14 +81,94 @@ z-index: -1;
   .lead{
       margin-top:5%;
       font-size: 100%;
+      font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+      font-weight: 500;
   }
 
   .services{
       margin-top:2%;
       font-size: 200%;
+      font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
   }
 
-  .contact{
+  /* .contact{
     background-image: url('iStock_000003797269Medium.jpg');
    background-size:cover; 
+  } */
+  /* .navbar-img{
+      margin-top: -5%;
+  } */
+  .modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 0px; 
   }
+
+.modal-body .form-horizontal .col-sm-2,
+.modal-body .form-horizontal .col-sm-10 {
+    width: 100%
+}
+
+.modal-body .form-horizontal .control-label {
+    text-align: left;
+}
+.modal-body .form-horizontal .col-sm-offset-2 {
+    margin-left: 15px;
+}
+
+/* .contact-content{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    } */
+
+    .truck{
+        
+        -webkit-filter: blur(5px); 
+        filter: blur(5px);
+        /* max-width: 1500px;
+        max-height: 1000px; */
+    }
+
+    .container3 {
+        position: relative;
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+    
+    .text-block {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(247, 197, 104);
+        height: 400px;
+        width: 500px;
+       
+      
+    }
+
+    .text-block{
+        font-size: 130%;
+        font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+        
+    }
+ .contact{
+        margin-top:10%;
+    }
+
+    .btn-primary {
+        color: #000;
+        background-color: #ffffff;
+        border-color: #000000;
+    }
+
+    .btn-primary:hover {
+        color: #fff;
+        background-color: #000000;
+        border-color: #000000;
+    }
